@@ -1,5 +1,13 @@
 package python
 
+import (
+	"path"
+	"dagger.io/dagger"
+	"dagger.io/dagger/core"
+	"universe.dagger.io/docker"
+	"universe.dagger.io/bash"
+)
+
 #InstallSystemPoetry: {
 	input:		docker.#Image
 	output:		_run.output

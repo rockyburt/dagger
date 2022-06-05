@@ -1,7 +1,6 @@
 package python
 
 import (
-	"path"
 	"dagger.io/dagger"
 	"dagger.io/dagger/core"
 	"universe.dagger.io/docker"
