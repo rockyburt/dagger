@@ -1,4 +1,4 @@
-package pythonext
+package python
 
 import (
 	"path"

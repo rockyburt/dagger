@@ -1,3 +1,5 @@
+package python
+
 #InstallSystemPoetry: {
 	input:		docker.#Image
 	output:		_run.output
